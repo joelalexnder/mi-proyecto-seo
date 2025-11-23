@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://mi-proyecto-seo-xi.vercel.app";
 
 export default async function handler(req, res) {
     const posts = await fetch(`${BASE_URL}/api/posts`).then((res) => res.json());
